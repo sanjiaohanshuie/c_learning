@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<windows.h>
+
 
 int main(void)
 {
-    system("chcp 65001 >nul");
     printf("Enter number of days in month:");
     int days,start;
     scanf("%d",&days);
